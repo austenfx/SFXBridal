@@ -2,9 +2,102 @@
     color: rgb(226, 164, 175);
 } */
 
+body {
+    background-color: #d8bdb6;
+    color: #905d4c;
+    font-family: "Inknut Antiqua", serif;
+}
+
 header {
     text-align: center;
 }
+
+.title-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 h1 {
     word-spacing: 20px;
+    font-size: 60px;
+    margin: 0px;
+    line-height: 150px;
+    
+    width: 40%;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.logo-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.logo {
+    width: 150px;
+    margin: 0px;
+}
+
+@media (max-width: 880px) and (min-width: 615px) {
+
+
+    h1 {
+        font-size: 40px;
+        line-height: 100px;
+    }
+
+    .logo-holder{
+        width: 100px;
+    }
+    
+    .logo {
+        width: 100px;
+    }
+}
+
+@media (max-width: 614px){
+    .title-bar {
+        flex-direction: column;
+    }
+
+
+    h1 {
+        order: 1;
+        line-height: 80px;
+        font-size: 50px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 449px) {
+
+
+}
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: solid #905d4c 1px;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+}
+
+.nav a {
+    text-align: center;
+    text-decoration: none;
+    color: #905d4c;
+    width: 120px;
+}
+
+.madi {
+    width: 200px;
 }
