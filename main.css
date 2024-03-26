@@ -83,7 +83,7 @@ h2 {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     border: solid #905d4c 1px;
     border-left: none;
